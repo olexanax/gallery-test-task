@@ -1,0 +1,18 @@
+@import "./reset.scss";
+@import "./variables.scss";
+
+body {
+    font-family: "Unbounded", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    color: #fff;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+        90deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(9, 9, 121, 1) 31%,
+        rgba(0, 127, 198, 1) 100%
+    );
+}

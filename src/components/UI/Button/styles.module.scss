@@ -1,0 +1,30 @@
+@import "../../../styles/variables";
+
+.button {
+    border: none;
+    border-radius: 17px;
+    background-color: #11194a;
+    color: #fff;
+    padding: 4px 23px;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    min-width: 100px;
+    width: max-content;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: flex;
+    &:hover {
+        background-color: #2440a6;
+    }
+}
+
+.disabled {
+    cursor: not-allowed !important ;
+    pointer-events: none !important;
+    background: #b4b4b4 !important ;
+    color: #fff !important ;
+}
+.loading {
+    pointer-events: none !important;
+}

@@ -55,7 +55,7 @@ const GalleryBlock = () => {
 
   return (
     <>
-      <div className={styles.container}>
+      <div id="gallery" className={styles.container}>
         <h1 className={styles.title}>
           Agora Software Gallery
         </h1>
@@ -74,7 +74,10 @@ const GalleryBlock = () => {
         allData && isViewerOpen &&
         <ImageViewer
           isModalOpen={isViewerOpen}
-          onClose={() => setIsViewerOpen(false)}
+          onClose={() => {
+            setIsViewerOpen(false)
+            setPickedImageIndex(null)
+          }}
           startFrom={pickedImageIndex || 0}
           firstMount={false}
           images={allData} />

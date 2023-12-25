@@ -12,6 +12,7 @@
     flex: 1 1 auto;
     width: calc(25% - 20px);
     min-width: 200px;
+    max-width: 600px;
     transition: 0.3s;
     &:hover {
         scale: 1.04;

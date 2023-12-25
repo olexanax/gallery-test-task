@@ -13,4 +13,8 @@ export interface PhotoType {
     links: {
         download: string;
     };
+    urls: {
+        small: string;
+        regular: string;
+    };
 }

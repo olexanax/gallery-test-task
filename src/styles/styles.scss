@@ -16,6 +16,7 @@ body {
         rgba(0, 127, 198, 1) 100%
     );
 }
-// .slick-track {
-//     display: flex !important;
-// }
+.slick-track {
+    display: flex !important;
+    align-items: center !important;
+}

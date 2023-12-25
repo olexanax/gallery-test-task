@@ -25,10 +25,10 @@ interface Props extends PhotoType {
 const GalleryCard: FC<Props> = ({ links, user, id, description, alt_description, blur_hash, onClick }) => {
   return (
     <motion.div
-      // initial="hidden"
-      // whileInView="visible"
-      // variants={variants}
-      // viewport={{ once: true, amount: 0.8 }}
+      initial="hidden"
+      whileInView="visible"
+      variants={variants}
+      viewport={{ once: true, amount: 0.8 }}
       onClick={onClick}
       className={styles.card}>
       <img alt={alt_description} src={links.download} className={styles.image} />

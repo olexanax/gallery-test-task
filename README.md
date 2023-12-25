@@ -1,6 +1,38 @@
-# Getting Started with Create React App
+# Dear Agora Software 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This test task was interesting and enjoyable to complete, thank you for that
+ 
+Below I have described all the technologies I used on the project, but now a few words about what is specified in the task and not in my solution:
+- React-Native (I don't know React-Native, so I chose React)
+- The assignment said that there should be 2 pages (routs), but I did everything on 1 page, since the gallery functionality does not require 2 routs, so I did everything through 1 page, but depending on the state, I display a gallery or 1 photo. I hope you like my solution
+
+Stack:
+React + TypeScript 
+SCSS + scss.modules
+Redux + RTK query + query-string (for requests and to work with API)
+framer-motion (to add some animation for best user experience)
+sonner (toast lib for displaying errors)
+unsplash API https://unsplash.com/developers
+
+In general, the project has the following structure: 
+src folder:
+- components (all interface components are here)
+- images (images here)
+- lib (utilities, helpers, validators, project wrappers here)
+- reduxFolder (all API requests and logic here)
+- styles (general styles here)
+
+All the requirements and tasks in the test assignment have been completed in full. I also added animations and replaced the spinner with Skeleton when displaying content loading 
+
+GitHub repo: https://github.com/olexanax/gallery-test-task
+
+Deploy link: https://gallery-test-task-phi.vercel.app/
+
+CV link: https://drive.google.com/file/d/1lk6r4HzwmxASrRzsbobk74RUr8_Ibim-/view
+
+Portfolio link: https://my-portfolio-nine-theta-87.vercel.app/
+
+All in all, it was an interesting test task, I was happy to work on it, thank you for that).
 
 ## Available Scripts
 

@@ -4,6 +4,7 @@ import GalleryBlock from "components/GalleryBlock/GalleryBlock";
 import { ReduxProvider } from "lib/ReduxProvider";
 import Snowfall from 'react-snowfall'
 import CvBlock from "components/CvBlock/CvBlock";
+import { Toaster } from 'sonner';
 //styles
 import styles from "./styles.module.scss"
 
@@ -16,6 +17,7 @@ function App() {
         <CvBlock />
       </main>
       <Snowfall />
+      <Toaster />
     </ReduxProvider>
   );
 }

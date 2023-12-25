@@ -2,12 +2,12 @@
 import styles from "./styles.module.scss";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "@splidejs/react-splide/css";
 //libs
 import { useEffect, useRef } from "react";
 import ReactDOM from "react-dom";
 import { FC } from "react";
 import { motion } from "framer-motion";
+import { toast } from "sonner";
 //@ts-ignore
 import Slider from "react-slick";
 import classNames from "classnames";
@@ -37,6 +37,10 @@ const ImageViewer: FC<Props> = ({ isModalOpen, onClose, images, startFrom, first
   }, [isModalOpen]);
 
   useEffect(() => {
+    toast('Use swipe for navigation :)', {
+      position: 'top-right',
+      duration: 4000
+    })
     return () => {
       unlockScroll();
     };

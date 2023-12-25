@@ -20,7 +20,7 @@ const CvBlock = () => {
   return (
     <div id="cv" className={styles.container}>
       <p >
-        <span >Dear Agor software,</span>
+        <span >Dear Agora Software,</span>
         <br /> <br />
         if you liked my test task, here is a link to my CV in Google
         drive: <br />

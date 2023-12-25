@@ -15,7 +15,7 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <div className={styles.content}>
-        <img alt="logo" src={"https://www.agora.software/wp-content/uploads/2021/09/logo-agora-software.svg"} />
+        <img className={styles.logo} alt="logo" src={"https://www.agora.software/wp-content/uploads/2021/09/logo-agora-software.svg"} />
         <nav className={styles.nav}>
           <Button onClick={() => scrollToSection('gallery')}>
             Gallery

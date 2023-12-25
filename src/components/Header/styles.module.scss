@@ -4,6 +4,11 @@
     background-color: #fff;
 }
 
+.logo {
+    @media (max-width: $mobileSize) {
+        width: 100px;
+    }
+}
 .content {
     @include top-block-wrapper;
     display: flex;

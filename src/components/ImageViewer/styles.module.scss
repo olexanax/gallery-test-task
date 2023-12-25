@@ -47,6 +47,8 @@ $modal-bg: linear-gradient(
     align-items: center;
     margin: auto 0;
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
 .modalImage {
     height: auto;
@@ -89,6 +91,10 @@ $modal-bg: linear-gradient(
     right: 0;
     background: rgba(0, 0, 0, 0.6);
     margin: 0 auto;
+    @media (max-width: $tabletSize) {
+        position: relative;
+        width: 100%;
+    }
 }
 .author,
 .name {
